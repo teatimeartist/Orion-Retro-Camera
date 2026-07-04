@@ -1,0 +1,6 @@
+{
+  "name": "Orion Retro Camera",
+  "description": "A mobile-optimized vintage camera simulator. Select classic bodies like Fujifilm, Hasselblad, Leica, Nikon, and Pentax, or assemble your own custom camera with calibrated temperature and film grain sensor layers.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

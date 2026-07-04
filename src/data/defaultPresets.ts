@@ -1,0 +1,58 @@
+import { FilterPreset } from '../types';
+
+export const DEFAULT_PRESETS: FilterPreset[] = [
+  {
+    id: 'original',
+    name: 'Original',
+    strength: 1.0,
+    colorTemp: 0,
+    contrast: 100,
+    saturation: 100,
+    filmGrain: 0,
+  },
+  {
+    id: 'classic-film',
+    name: 'Classic Film',
+    strength: 0.85,
+    colorTemp: 35,
+    contrast: 115,
+    saturation: 90,
+    filmGrain: 40,
+  },
+  {
+    id: 'noir-vintage',
+    name: 'Noir Vintage',
+    strength: 1.0,
+    colorTemp: -15,
+    contrast: 135,
+    saturation: 0,
+    filmGrain: 65,
+  },
+  {
+    id: 'golden-hour',
+    name: 'Golden Hour',
+    strength: 0.9,
+    colorTemp: 60,
+    contrast: 105,
+    saturation: 115,
+    filmGrain: 15,
+  },
+  {
+    id: 'cool-chrome',
+    name: 'Cool Chrome',
+    strength: 0.8,
+    colorTemp: -40,
+    contrast: 110,
+    saturation: 80,
+    filmGrain: 30,
+  },
+  {
+    id: 'emerald-fade',
+    name: 'Emerald Fade',
+    strength: 0.75,
+    colorTemp: -15,
+    contrast: 90,
+    saturation: 85,
+    filmGrain: 25,
+  },
+];
